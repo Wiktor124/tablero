@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  width: fit-content;
+  height: fit-content;
+
+}
+.cajas {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+}
+.cajas:nth-child(2n) {
+  background-color: #fff;
+}
